@@ -5,7 +5,10 @@ while True:
         tabuada.append(numero * x)
 
     print("Tabuada de {}".format(numero))
+    print("-" * 12)
     multiplicador = 1
     for x in tabuada:
-        print("{}x{}= {}".format(numero, multiplicador, x))
+        print("{} x {:2} = {}".format(numero, multiplicador, x))
         multiplicador += 1
+
+    print("-" * 12)
