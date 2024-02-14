@@ -4,7 +4,7 @@ while True:
     maisNumero = "s"
     numeros = []
     while maisNumero == "s" or maisNumero == "S":
-        numeros.append(int(input("Informe um númmero inteiro: ")))
+        numeros.append(float(input("Informe um númmero: ")))
 
         maisNumero = input(
             "Deseja informar mais um número (s ou S para Sim, qualquer outro valor para não): "
