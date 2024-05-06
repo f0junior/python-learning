@@ -4,4 +4,4 @@ while True:
     if distViagem > 200:
         custo = 0.45
 
-    print("O custo para a viagem é de R${:.2f}".format(distViagem*custo))
+    print("O custo para a viagem é de R${:.2f}".format(distViagem * custo))
