@@ -16,4 +16,3 @@ while True:
         continue
 
     print("{} é primo.".format(numero))
-1
