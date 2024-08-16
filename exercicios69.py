@@ -14,8 +14,8 @@ maior_idade = homens = mulher_menor_vinte = 0
 for pessoa in pesssoas:
     if pessoa.idade > 18:
         maior_idade += 1
-    
-    if pessoa.sexo == 'M':
+
+    if pessoa.sexo == "M":
         homens += 1
     elif pessoa.idade < 20:
         mulher_menor_vinte += 1
